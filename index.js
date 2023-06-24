@@ -2,6 +2,11 @@ const express = require('express');
 const connectToMongo=require('./db')
 connectToMongo();
 
+
+// this is the base url where app is running 
+// https://secret-friend-backend.onrender.com/
+
+
 const app = express()
 const port = 5000
 
